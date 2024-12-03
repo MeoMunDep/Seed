@@ -1,1 +1,8 @@
-{ "spin": false, "countdown": 300, "country_time": "en-US", "limit": 100 }
+{
+  "spin": false,
+  "countdown": 300,
+  "country_time": "en-US",
+  "limit": 100,
+  "delayEachAccount": [5, 8],
+  "doTasks": true
+}
