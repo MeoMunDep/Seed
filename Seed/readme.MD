@@ -6,7 +6,7 @@
 - Group: [Link](t.me/KeoAirDropFreeNe)
 - Channel: [Link](t.me/KeoAirDropFreeNee)
 
-> > > Help me with your referral [Link](https://t.me/seed_coin_bot?startapp=6713068747)
+> Help me with your referral [Link](https://t.me/seed_coin_bot?startapp=6713068747)
 
 ## 🚀 Getting Started
 
@@ -16,10 +16,12 @@ To get started with the bot, follow these steps:
 
 -> [Link](https://t.me/KeoAirDropFreeNe/257/1462)
 
+> Remember to download Nodejs version: **22.11.0** and NPM version: **10.9.0**
+
 1. **Install Dependencies and Modules:**
 
    ```
-   npm i user-agents cloudscraper axios colors p-limit https-proxy-agent socks-proxy-agent
+   npm i user-agents axios colors p-limit https-proxy-agent socks-proxy-agent crypto-js ws uuid xlsx
    ```
 
 2. **Prepare Configuration Files:**
@@ -32,13 +34,17 @@ To get started with the bot, follow these steps:
 
 ```json
 {
-  "limit": 5, //number of accounts run in a row
-  "countdown": 300, //time to restarts all the accounts - count by seconds
-  "country_time": "vi-VN" //timestamp base on the country
+  "spin": false,
+  "countdown": 300,
+  "country_time": "en-US",
+  "limit": 100,
+  "delayEachAccount": [5, 8],
+  "doTasks": true
 }
+
 ```
 
-### 2. `datas.txt` 🗂️ -
+### 2. `datas.txt` 🗂️ - Get it from here >>> [Link](https://t.me/KeoAirDropFreeNe/257/6879)
 
 ```txt
 query_id.../user...
@@ -65,7 +71,7 @@ socks5://user:password@host:port
 
 💡 Usage:
 
-> You need to `cd` to the file after extract it, example
-> To run the bot, use the following command: `node 1`
+> You need to `cd` to the file after extract it.
+> To run the bot, use the following command: `node bot`
 
 🎇Enjoy!
