@@ -69,6 +69,14 @@ socks4://user:password@host:port
 socks5://user:password@host:port
 ```
 
+### 5. `anwsers.txt` 🌐 - Fill with all answers for Youtube tasks.
+
+```txt
+abc...xyz
+abc...xyz
+abc...xyz
+```
+
 💡 Usage:
 
 > You need to `cd` to the file after extract it.
